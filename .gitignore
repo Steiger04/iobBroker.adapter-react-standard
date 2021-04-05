@@ -1,0 +1,11 @@
+.cache
+.idea
+.vscode
+
+admin
+node_modules
+Thumbs.db
+
+.git
+
+.create-adapter.json

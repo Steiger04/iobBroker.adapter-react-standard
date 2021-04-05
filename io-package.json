@@ -1,0 +1,80 @@
+{
+    "common": {
+        "name": "adapter-react-standard",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "初始发行"
+            }
+        },
+        "title": "Template for React",
+        "titleLang": {
+            "en": "Template for React",
+            "de": "Vorlage für React",
+            "ru": "Шаблон для React",
+            "pt": "Modelo para React",
+            "nl": "Sjabloon voor React",
+            "fr": "Modèle pour React",
+            "it": "Modello per React",
+            "es": "Plantilla para React",
+            "pl": "Szablon do React",
+            "zh-cn": "React的模板"
+        },
+        "desc": {
+            "en": "Adapter template for ioBroker based on React",
+            "de": "Adaptervorlage für ioBroker basierend auf React",
+            "ru": "Шаблон адаптера для ioBroker на основе React",
+            "pt": "Modelo de adaptador para ioBroker baseado em React",
+            "nl": "Adaptertemplate voor ioBroker op basis van React",
+            "fr": "Modèle d'adaptateur pour ioBroker basé sur React",
+            "it": "Modello adattatore per ioBroker basato su React",
+            "es": "Plantilla adaptadora para ioBroker basada en React",
+            "pl": "Szablon adaptera dla ioBroker oparty na React",
+            "zh-cn": "基于React的ioBroker适配器模板"
+        },
+        "authors": [
+            "Steiger04 <steiger04@posteo.de>"
+        ],
+        "keywords": [
+            "ioBroker",
+            "template",
+            "Smart Home",
+            "home automation"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "adapter-react-standard.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/Steiger04/ioBroker.adapter-react-standard/master/admin/adapter-react-standard.png",
+        "readme": "https://github.com/Steiger04/ioBroker.adapter-react-standard/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "iot-systems",
+        "compact": true,
+        "connectionType": "cloud",
+        "dataSource": "poll",
+        "materialize": true,
+        "message": true,
+        "dependencies": [
+            {
+                "js-controller": ">=2.0.0"
+            }
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}

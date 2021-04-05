@@ -1,0 +1,6 @@
+/admin
+/node_modules
+/public
+/test
+main.test.js
+package-lock.json
